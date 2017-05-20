@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zero zero, zero, LIC=9WSEV-PYBDQ-DX6U3-A5G0M-0VQY6-PH1QG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  F:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+E:\stm32f4\STM32F4³ÌÐò\ADC\ADC\MDK-ARM\ADC.uvprojx
+Project File Date:  05/17/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'F:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'ADC'
+compiling main.c...
+..\Drivers\BSP\adc.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\BSP\key.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/main.c(136): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					fft_inputbuf[2*i]=fft_inputbuf[2*i]*3.3/4096;
+../Src/main.c(144): error:  #137: expression must be a modifiable lvalue
+  					printf("%f ",-------------------------------------fft_inputbuf[2*i]);
+../Src/main.c(87): warning:  #177-D: variable "a" was declared but never referenced
+  	u16 a,AD[100];
+../Src/main.c(87): warning:  #177-D: variable "AD" was declared but never referenced
+  	u16 a,AD[100];
+../Src/main.c: 5 warnings, 1 error
+"ADC\ADC.axf" - 1 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\stm32f4\STM32F4³ÌÐò\ADC\ADC\MDK-ARM\RTE
+  F:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  F:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Target not created.
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

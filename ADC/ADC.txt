@@ -1,0 +1,103 @@
+Configuration	ADC
+STM32CubeMX 	4.20.1
+Date	05/11/2017
+MCU	STM32F407VETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0-WKUP
+ADC2	IN1	ADC2_IN1	PA1
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	NE1	FSMC_NE1	PD7
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	LCD Interface	FSMC_NOE	PD4
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	LCD Interface	FSMC_NWE	PD5
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	A16	FSMC_A16	PD11
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D0	PD14
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D1	PD15
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D2	PD0
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D3	PD1
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D4	PE7
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D5	PE8
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D6	PE9
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D7	PE10
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D8	PE11
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D9	PE12
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D10	PE13
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D11	PE14
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D12	PE15
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D13	PD8
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D14	PD9
+FSMC:NOR Flash/PSRAM/SRAM/ROM/LCD 1	16 bits	FSMC_D15	PD10
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+12	PH0-OSC_IN	RCC_OSC_IN	
+13	PH1-OSC_OUT	RCC_OSC_OUT	
+23	PA0-WKUP	ADC1_IN0	
+24	PA1	ADC2_IN1	
+30	PA5	GPIO_Input	
+36	PB1	GPIO_Input	
+38	PE7	FSMC_D4	
+39	PE8	FSMC_D5	
+40	PE9	FSMC_D6	
+41	PE10	FSMC_D7	
+42	PE11	FSMC_D8	
+43	PE12	FSMC_D9	
+44	PE13	FSMC_D10	
+45	PE14	FSMC_D11	
+46	PE15	FSMC_D12	
+55	PD8	FSMC_D13	
+56	PD9	FSMC_D14	
+57	PD10	FSMC_D15	
+58	PD11	FSMC_A16	
+59	PD12	GPIO_Output	
+60	PD13	GPIO_Output	
+61	PD14	FSMC_D0	
+62	PD15	FSMC_D1	
+67	PA8	GPIO_Input	
+68	PA9	USART1_TX	
+69	PA10	USART1_RX	
+81	PD0	FSMC_D2	
+82	PD1	FSMC_D3	
+85	PD4	FSMC_NOE	
+86	PD5	FSMC_NWE	
+88	PD7	FSMC_NE1	
+89	PB3	GPIO_Output	
+91	PB5	GPIO_Output	
+93	PB7	GPIO_Output	
+96	PB9	GPIO_Output	
+98	PE1	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ADC
+Project Folder : E:\stm32f4\STM32F4³ÌÐò\ADC\ADC
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F4 V1.16.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
